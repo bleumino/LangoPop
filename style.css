@@ -26,3 +26,68 @@ input, select, button {
   margin-top: 1rem;
   font-weight: bold;
 }
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-top: 1px solid #ccc;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+footer p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.social-links li a {
+  text-decoration: none;
+  color: #4a4a4a;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.social-links li a:hover {
+  color: #007bff;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+.container {
+  max-width: 600px; /* keeps your content narrow and neat */
+  margin: 20px auto; /* center horizontally with vertical spacing */
+  padding: 20px;
+  /* DON'T set flex:1 here, to avoid stretching */
+}
+
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 15px 20px;
+  font-size: 14px;
+  margin-top: auto; /* pushes footer to bottom only if needed */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.05); /* subtle separation */
+}

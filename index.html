@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>LingoPop</h1>
   <div class="container">
     <h2>Translate the Sentence</h2>
     <p id="englishSentence"></p>
@@ -16,11 +17,34 @@
   <option value="tr">Turkish</option>
   <option value="ja">Japanese</option>
 </select>
+
     <input type="text" id="userInput" placeholder="Type translation here..." />
     <button onclick="checkTranslation()">Check</button>
+<button id="nextBtn" onclick="nextSentence()">Next</button>
     <p id="result"></p>
   </div>
 
+  <div class="user-sentence-form">
+  <h3>Add Your Own Sentence</h3>
+  <input id="userEn" placeholder="English sentence" />
+  <input id="userFr" placeholder="French translations (comma separated)" />
+  <input id="userEs" placeholder="Spanish translations (comma separated)" />
+  <input id="userTr" placeholder="Turkish translations (comma separated)" />
+  <input id="userJa" placeholder="Japanese translations (comma separated)" />
+  <button id="submitUserSentence">Add Sentence</button>
+  <p id="userSentenceResult"></p>
+</div>
+
   <script src="script.js"></script>
+<footer>
+  <p>Follow me for more language content:</p>
+  <ul class="social-links">
+    <li><a href="https://www.youtube.com/@bleumino" target="_blank">YouTube</a></li>
+    <li><a href="https://x.com/nghiatr23118906" target="_blank">X (formerly Twitter)</a></li>
+    <li><a href="https://www.twitch.tv/funnycomicsbrawlstars" target="_blank">Twitch</a></li>
+    <li><a href="https://www.instagram.com/bleumino1" target="_blank">Instagram</a></li>
+    <li><a href="https://linktr.ee/nghiaductran?ltsid=f0e5b05d-e8c7-4ca7-aeb5-d23fda2ac877" target="_blank">Linktree</a></li>
+  </ul>
+</footer>
 </body>
 </html>
