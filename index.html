@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Language Translation Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Translate the Sentence</h2>
+    <p id="englishSentence"></p>
+   <select id="languageSelect">
+  <option value="fr">French</option>
+  <option value="es">Spanish</option>
+  <option value="tr">Turkish</option>
+  <option value="ja">Japanese</option>
+</select>
+    <input type="text" id="userInput" placeholder="Type translation here..." />
+    <button onclick="checkTranslation()">Check</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
