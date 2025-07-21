@@ -32,7 +32,7 @@ const sentences = [
   {
     en: "We are friends",
     fr: {
-      correct: ["Nous sommes amis", "On est amis"],
+      correct: ["Nous sommes amis", "On est amis", "Nous sommes amies"],
     },
     es: {
       correct: ["Somos amigos"],
