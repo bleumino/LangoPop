@@ -505,7 +505,7 @@ const sentences = [
 {
   en: "I like cats.",
   fr: {
-    correct: ["J'aime les chats."]
+    correct: ["J'aime les chats.", "je kiffe le chat"]
   },
   es: {
     correct: ["Me gustan los gatos."]
