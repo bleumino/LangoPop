@@ -329,7 +329,7 @@ const sentences = [
 {
   en: "I need to charge my phone.",
   fr: {
-    correct: ["Je dois recharger mon téléphone.", "Faut que je recharge mon portable.", ""]
+    correct: ["Je dois recharger mon téléphone.", "Faut que je recharge mon portable.", "'J'ai besoin de charger mon téléphone"]
   },
   es: {
     correct: ["Necesito cargar mi teléfono.", "Tengo que cargar el móvil."]
