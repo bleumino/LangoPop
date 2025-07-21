@@ -62,7 +62,7 @@ const sentences = [
   {
     en: "Where is the bus?",
     fr: {
-      correct: ["Où est le bus ?", "Où est le bus"],
+      correct: ["Où est le bus?", "Serait-il possible de savoir où est le bus ?", " Il est où le bus ? "," C’est où le bus ? " ],
     },
     es: {
       correct: ["¿Dónde está el autobús?", "Dónde está el autobús"],
@@ -77,7 +77,7 @@ const sentences = [
   {
     en: "I’m hungry",
     fr: {
-      correct: ["J’ai faim", "Je crève la dalle (slang)"],
+      correct: ["J’ai faim", "Je crève la dalle", "	J’ai la dalle.", ],
     },
     es: {
       correct: ["Tengo hambre", "Estoy hambriento"],
@@ -92,7 +92,7 @@ const sentences = [
   {
     en: "Let’s go!",
     fr: {
-      correct: ["Allons-y", "On y va", "C’est parti !"],
+      correct: ["Allons-y", "On y va", "C’est parti !", "Allez !"],
     },
     es: {
       correct: ["¡Vamos!", "Vámonos"],
@@ -107,7 +107,7 @@ const sentences = [
   {
     en: "I don’t understand",
     fr: {
-      correct: ["Je ne comprends pas", "Je pige pas (slang)", "Je comprends pas"],
+      correct: ["Je ne comprends pas", "Je pige pas", "Je comprends pas"],
     },
     es: {
       correct: ["No entiendo", "No comprendo"],
@@ -185,7 +185,7 @@ const sentences = [
   {
   en: "I'm really tired today.",
   fr: {
-    correct: ["Je suis vraiment fatigué aujourd'hui.", "Aujourd'hui, je suis super fatigué."]
+    correct: ["Je suis vraiment fatigué aujourd'hui.", "Aujourd'hui, je suis super fatigué.", "Je suis trop fatigué aujourd’hui", "Je suis trop fatiguée aujourd’hui"]
   },
   es: {
     correct: ["Estoy muy cansado hoy.", "Hoy estoy realmente cansado."]
@@ -249,7 +249,7 @@ const sentences = [
 {
   en: "Can you help me with this?",
   fr: {
-    correct: ["Tu peux m'aider avec ça ?", "Est-ce que tu peux m’aider ?"]
+    correct: ["Tu peux m'aider avec ça ?", "Est-ce que tu peux m’aider ?", "Pouvez-vous m’aider avec ça ?", "Tu me files un coup de main avec ça ?"]
   },
   es: {
     correct: ["¿Puedes ayudarme con esto?", "¿Me echas una mano con esto?"]
@@ -258,14 +258,14 @@ const sentences = [
     correct: ["Bana bununla yardım edebilir misin?", "Şuna yardım eder misin?"]
   },
   ja: {
-    correct: ["これ手伝ってくれる？", "これ、助けてくれない？"]
+    correct: ["これ手伝ってくれる？", "これ、助けてくれない？", "これを手伝ってもらえますか？", "これを手伝ってもらえますか？"]
   }
 },
 
 {
   en: "What time does the movie start?",
   fr: {
-    correct: ["Le film commence à quelle heure ?", "À quelle heure commence le film ?"]
+    correct: ["Le film commence à quelle heure ?", "À quelle heure commence le film ?", "C’est à quelle heure que le film commence ?", "Serait-il possible de connaître l’heure de début du film ?"]
   },
   es: {
     correct: ["¿A qué hora empieza la película?", "¿Cuándo empieza la peli?"]
@@ -281,7 +281,7 @@ const sentences = [
 {
   en: "I didn’t sleep well last night.",
   fr: {
-    correct: ["J'ai mal dormi cette nuit.", "Je n'ai pas bien dormi la nuit dernière."]
+    correct: ["J'ai mal dormi cette nuit.", "Je n'ai pas bien dormi la nuit dernière.", "Je n’ai pas passé une bonne nuit.", "J’ai super mal dormi hier soir.", "J’ai fait une nuit de merde."]
   },
   es: {
     correct: ["No dormí bien anoche.", "Anoche dormí fatal."]
@@ -329,7 +329,7 @@ const sentences = [
 {
   en: "I need to charge my phone.",
   fr: {
-    correct: ["Je dois recharger mon téléphone.", "Faut que je recharge mon portable."]
+    correct: ["Je dois recharger mon téléphone.", "Faut que je recharge mon portable.", ""]
   },
   es: {
     correct: ["Necesito cargar mi teléfono.", "Tengo que cargar el móvil."]
@@ -521,7 +521,7 @@ const sentences = [
 {
   en: "Where is the station?",
   fr: {
-    correct: ["Où est la gare ?"]
+    correct: ["Où est la gare ?", "où est la station ?"]
   },
   es: {
     correct: ["¿Dónde está la estación?"]
@@ -537,7 +537,7 @@ const sentences = [
 {
   en: "I want water.",
   fr: {
-    correct: ["Je veux de l'eau."]
+    correct: ["Je veux de l'eau.", "J’ai besoin d’eau."," Il me faut de l’eau"  ]
   },
   es: {
     correct: ["Quiero agua."]
@@ -569,7 +569,7 @@ const sentences = [
 {
   en: "It's cold today.",
   fr: {
-    correct: ["Il fait froid aujourd'hui."]
+    correct: ["Il fait froid aujourd'hui.","c’est froid aujourd’hui "]
   },
   es: {
     correct: ["Hace frío hoy."]
@@ -585,7 +585,7 @@ const sentences = [
 {
   en: "It is possible that he is coming.",
   fr: {
-    correct: ["Il est possible qu'il vienne."]
+    correct: ["Il est possible qu'il vienne.", "Il se peut qu’il vienne. ", "Peut-être qu’il vient."]
   },
   es: {
     correct: ["Es posible que él venga."]
@@ -594,7 +594,7 @@ const sentences = [
     correct: ["Geliyor olması mümkün."]
   },
   ja: {
-    correct: ["彼が来る可能性があります。"]
+    correct: ["彼が来る可能性があります。", "彼が来るかもしれません。", "彼が来るかもしれない。", "彼は来るかも。"]
   }
 },
 
