@@ -1810,7 +1810,679 @@ const sentences = [
       "J’ai oublié de régler mon réveil et je me suis réveillé(e) en retard aujourd’hui.",
       "Aujourd’hui, je me suis réveillé(e) tard car j’ai oublié mon alarme."
   ]}
-  }
+  },
+  {
+  en: ["Hello, today I want to talk about my pencil."],
+  fr: { correct: ["Bonjour, aujourd'hui je veux parler de mon crayon."] },
+  es: { correct: ["Hola, hoy quiero hablar de mi lápiz."] },
+  tr: { correct: ["Merhaba, bugün kalemimden bahsetmek istiyorum."] },
+  ja: { correct: ["こんにちは、今日は私の鉛筆について話したいです。"] }
+},
+{
+  en: ["I want to talk about my pencil, my pen."],
+  fr: { correct: ["Je veux parler de mon crayon, mon stylo."] },
+  es: { correct: ["Quiero hablar de mi lápiz, mi bolígrafo."] },
+  tr: { correct: ["Kalemimden, tükenmez kalemimden bahsetmek istiyorum."] },
+  ja: { correct: ["私の鉛筆、ペンについて話したいです。"] }
+},
+{
+  en: ["It's a pencil, a pen."],
+  fr: { correct: ["C'est un crayon, un stylo."] },
+  es: { correct: ["Es un lápiz, un bolígrafo."] },
+  tr: { correct: ["O bir kalem, bir tükenmez kalem."] },
+  ja: { correct: ["それは鉛筆であり、ペンです。"] }
+},
+{
+  en: ["My pen is blue."],
+  fr: { correct: ["Mon stylo est bleu."] },
+  es: { correct: ["Mi bolígrafo es azul."] },
+  tr: { correct: ["Tükenmez kalemim mavi."] },
+  ja: { correct: ["私のペンは青いです。"] }
+},
+{
+  en: ["On my pen, there is a penguin."],
+  fr: { correct: ["Sur mon stylo, il y a un pingouin."] },
+  es: { correct: ["En mi bolígrafo, hay un pingüino."] },
+  tr: { correct: ["Tükenmez kalemimde bir penguen var."] },
+  ja: { correct: ["私のペンにはペンギンがいます。"] }
+},
+{
+  en: ["The penguin is blue, purple, gray."],
+  fr: { correct: ["Le pingouin est bleu, mauve, gris."] },
+  es: { correct: ["El pingüino es azul, morado, gris."] },
+  tr: { correct: ["Penguen mavi, mor, gri renkte."] },
+  ja: { correct: ["ペンギンは青、紫、灰色です。"] }
+},
+{
+  en: ["My penguin is blue."],
+  fr: { correct: ["Mon pingouin est bleu."] },
+  es: { correct: ["Mi pingüino es azul."] },
+  tr: { correct: ["Penguenim mavi."] },
+  ja: { correct: ["私のペンギンは青いです。"] }
+},
+{
+  en: ["It's a penguin."],
+  fr: { correct: ["C'est un pingouin."] },
+  es: { correct: ["Es un pingüino."] },
+  tr: { correct: ["O bir penguen."] },
+  ja: { correct: ["それはペンギンです。"] }
+},
+{
+  en: ["The penguin's cheeks are pink."],
+  fr: { correct: ["Les joues du pingouin sont roses."] },
+  es: { correct: ["Las mejillas del pingüino son rosas."] },
+  tr: { correct: ["Penguenin yanakları pembe."] },
+  ja: { correct: ["ペンギンの頬はピンクです。"] }
+},
+{
+  en: ["It has two cheeks."],
+  fr: { correct: ["Il a deux joues."] },
+  es: { correct: ["Tiene dos mejillas."] },
+  tr: { correct: ["İki yanağı var."] },
+  ja: { correct: ["頬が二つあります。"] }
+},
+{
+  en: ["The penguin has two cheeks."],
+  fr: { correct: ["Le pingouin a deux joues."] },
+  es: { correct: ["El pingüino tiene dos mejillas."] },
+  tr: { correct: ["Penguenin iki yanağı var."] },
+  ja: { correct: ["ペンギンには頬が二つあります。"] }
+},
+{
+  en: ["They are pink."],
+  fr: { correct: ["Elles sont roses."] },
+  es: { correct: ["Son rosas."] },
+  tr: { correct: ["Onlar pembe."] },
+  ja: { correct: ["それらはピンク色です。"] }
+},
+{
+  en: ["Its eyes are black."],
+  fr: { correct: ["Ses yeux sont noirs."] },
+  es: { correct: ["Sus ojos son negros."] },
+  tr: { correct: ["Gözleri siyah."] },
+  ja: { correct: ["目は黒いです。"] }
+},
+{
+  en: ["The penguin has two eyes."],
+  fr: { correct: ["Le pingouin a deux yeux."] },
+  es: { correct: ["El pingüino tiene dos ojos."] },
+  tr: { correct: ["Penguenin iki gözü var."] },
+  ja: { correct: ["ペンギンには二つの目があります。"] }
+},
+{
+  en: ["One eye, two eyes."],
+  fr: { correct: ["Un œil, deux yeux."] },
+  es: { correct: ["Un ojo, dos ojos."] },
+  tr: { correct: ["Bir göz, iki göz."] },
+  ja: { correct: ["一つの目、二つの目。"] }
+},
+{
+  en: ["Its eyes are black."],
+  fr: { correct: ["Ses yeux sont noirs."] },
+  es: { correct: ["Sus ojos son negros."] },
+  tr: { correct: ["Gözleri siyah."] },
+  ja: { correct: ["目は黒いです。"] }
+},
+{
+  en: ["Its beak is orange."],
+  fr: { correct: ["Son bec est orange."] },
+  es: { correct: ["Su pico es naranja."] },
+  tr: { correct: ["Gagası turuncu."] },
+  ja: { correct: ["くちばしはオレンジ色です。"] }
+},
+{
+  en: ["It has a beak, so its beak is orange."],
+  fr: { correct: ["Il a un bec donc son bec est orange."] },
+  es: { correct: ["Tiene un pico, por lo tanto su pico es naranja."] },
+  tr: { correct: ["Bir gagası var, yani gagası turuncu."] },
+  ja: { correct: ["くちばしがあります、だからくちばしはオレンジ色です。"] }
+},
+{
+  en: ["Its cheeks, eyes, beak."],
+  fr: { correct: ["Ses joues, ses yeux, son bec."] },
+  es: { correct: ["Sus mejillas, sus ojos, su pico."] },
+  tr: { correct: ["Yanakları, gözleri, gagası."] },
+  ja: { correct: ["頬、目、くちばし。"] }
+},
+{
+  en: ["It has two arms, two legs, a beak, two eyes, two cheeks, a head."],
+  fr: { correct: ["Il a deux bras, deux jambes, un bec, deux yeux, deux joues, une tête."] },
+  es: { correct: ["Tiene dos brazos, dos piernas, un pico, dos ojos, dos mejillas, una cabeza."] },
+  tr: { correct: ["İki kolu, iki bacağı, bir gagası, iki gözü, iki yanağı, bir kafası var."] },
+  ja: { correct: ["腕が二つ、脚が二つ、くちばしが一つ、目が二つ、頬が二つ、頭があります。"] }
+},
+{
+  en: ["That's my penguin."],
+  fr: { correct: ["C'est mon pingouin."] },
+  es: { correct: ["Ese es mi pingüino."] },
+  tr: { correct: ["Bu benim penguenim."] },
+  ja: { correct: ["これが私のペンギンです。"] }
+},
+{
+  en: ["Thanks, see you later!"],
+  fr: { correct: ["Merci, à plus tard !"] },
+  es: { correct: ["Gracias, ¡hasta luego!"] },
+  tr: { correct: ["Teşekkürler, görüşürüz!"] },
+  ja: { correct: ["ありがとう、またね！"] }
+},
+{
+  en: ["Hello friends and welcome to a new episode of Super Easy French."],
+  fr: { correct: ["Bonjour les amis et bienvenue dans un nouvel épisode de Super Easy French."] },
+  es: { correct: ["Hola amigos y bienvenidos a un nuevo episodio de Super Easy French."] },
+  tr: { correct: ["Merhaba arkadaşlar, Super Easy French'in yeni bölümüne hoş geldiniz."] },
+  ja: { correct: ["みなさん、こんにちは。Super Easy Frenchの新しいエピソードへようこそ。"] }
+},
+{
+  en: ["Today in French LAN, we will take different means of public transport in Paris and show you how it goes."],
+  fr: { correct: ["Aujourd'hui, dans French LAN, nous allons prendre différents moyens de transport public à Paris et vous montrer comment ça se passe."] },
+  es: { correct: ["Hoy, en French LAN, tomaremos diferentes medios de transporte público en París y te mostraremos cómo funciona."] },
+  tr: { correct: ["Bugün French LAN'de Paris'te farklı toplu taşıma araçlarına bineceğiz ve size nasıl olduğunu göstereceğiz."] },
+  ja: { correct: ["今日はFrench LANでパリの様々な公共交通機関を利用し、その様子をお見せします。"] }
+},
+{
+  en: ["Let's go!"],
+  fr: { correct: ["C'est parti !"] },
+  es: { correct: ["¡Vamos!"] },
+  tr: { correct: ["Hadi başlayalım!"] },
+  ja: { correct: ["さあ、行きましょう！"] }
+},
+{
+  en: ["In Paris, the most used means of transport is the metro."],
+  fr: { correct: ["À Paris, le moyen de transport le plus utilisé est le métro."] },
+  es: { correct: ["En París, el medio de transporte más utilizado es el metro."] },
+  tr: { correct: ["Paris'te en çok kullanılan ulaşım aracı metrodur."] },
+  ja: { correct: ["パリで最も使われている交通手段は地下鉄です。"] }
+},
+{
+  en: ["To take the metro, you need to have a Navigo card."],
+  fr: { correct: ["Pour prendre le métro, il faut avoir une carte Navigo."] },
+  es: { correct: ["Para tomar el metro, necesitas tener una tarjeta Navigo."] },
+  tr: { correct: ["Metroya binmek için Navigo kartınızın olması gerekir."] },
+  ja: { correct: ["地下鉄に乗るには、Navigoカードが必要です。"] }
+},
+{
+  en: ["You can have a monthly subscription or recharge this card with single journeys."],
+  fr: { correct: ["On peut avoir un abonnement mensuel ou recharger cette carte avec des trajets à l'unité."] },
+  es: { correct: ["Puedes tener una suscripción mensual o recargar esta tarjeta con viajes individuales."] },
+  tr: { correct: ["Aylık abonelik alabilir veya bu kartı tekli yolculuklarla doldurabilirsiniz."] },
+  ja: { correct: ["月額のサブスクリプションを持つか、このカードを単発の乗車券でチャージできます。"] }
+},
+{
+  en: ["You can also buy tickets."],
+  fr: { correct: ["On peut aussi acheter des tickets."] },
+  es: { correct: ["También puedes comprar billetes."] },
+  tr: { correct: ["Ayrıca bilet satın alabilirsiniz."] },
+  ja: { correct: ["チケットを購入することもできます。"] }
+},
+{
+  en: ["A ticket costs 2.10 euros."],
+  fr: { correct: ["Un ticket coûte 2,10 €.", "Un ticket coûte deux euros dix."] },
+  es: { correct: ["Un billete cuesta 2,10 euros."] },
+  tr: { correct: ["Bir bilet 2,10 euro tutarındadır."] },
+  ja: { correct: ["チケットは2.10ユーロです。"] }
+},
+{
+  en: ["With this ticket, you can take the metro, bus, tram, and RER in Paris."],
+  fr: { correct: ["Avec ce ticket, on peut prendre le métro, le bus, le tram et le RER dans Paris."] },
+  es: { correct: ["Con este billete, puedes tomar el metro, el autobús, el tranvía y el RER en París."] },
+  tr: { correct: ["Bu biletle Paris'te metroya, otobüse, tramvaya ve RER'e binebilirsiniz."] },
+  ja: { correct: ["このチケットでパリの地下鉄、バス、トラム、RERに乗れます。"] }
+},
+{
+  en: ["Hélène recharges her Navigo card at the machine."],
+  fr: { correct: ["Hélène recharge sa carte Navigo à la machine."] },
+  es: { correct: ["Hélène recarga su tarjeta Navigo en la máquina."] },
+  tr: { correct: ["Hélène Navigo kartını makinada dolduruyor."] },
+  ja: { correct: ["エレーヌは機械でNavigoカードをチャージします。"] }
+},
+{
+  en: ["She pays by card."],
+  fr: { correct: ["Elle paye en carte."] },
+  es: { correct: ["Ella paga con tarjeta."] },
+  tr: { correct: ["Kartla ödüyor."] },
+  ja: { correct: ["彼女はカードで支払います。"] }
+},
+{
+  en: ["Hélène validates her Navigo card to take the metro."],
+  fr: { correct: ["Hélène valide sa carte Navigo pour prendre le métro."] },
+  es: { correct: ["Hélène valida su tarjeta Navigo para tomar el metro."] },
+  tr: { correct: ["Hélène metrosuna binmek için Navigo kartını okutur."] },
+  ja: { correct: ["エレーヌは地下鉄に乗るためにNavigoカードをタッチします。"] }
+},
+{
+  en: ["Hélène waits for the metro."],
+  fr: { correct: ["Hélène attend le métro."] },
+  es: { correct: ["Hélène espera el metro."] },
+  tr: { correct: ["Hélène metroyu bekliyor."] },
+  ja: { correct: ["エレーヌは地下鉄を待っています。"] }
+},
+{
+  en: ["It arrives in one minute."],
+  fr: { correct: ["Il arrive dans une minute."] },
+  es: { correct: ["Llega en un minuto."] },
+  tr: { correct: ["Bir dakika içinde geliyor."] },
+  ja: { correct: ["1分で到着します。"] }
+},
+{
+  en: ["The metro arrives."],
+  fr: { correct: ["Le métro arrive."] },
+  es: { correct: ["El metro llega."] },
+  tr: { correct: ["Metro geliyor."] },
+  ja: { correct: ["地下鉄が来ました。"] }
+},
+{
+  en: ["Hélène gets on the metro."],
+  fr: { correct: ["Hélène monte dans le métro."] },
+  es: { correct: ["Hélène sube al metro."] },
+  tr: { correct: ["Hélène metroya biniyor."] },
+  ja: { correct: ["エレーヌは地下鉄に乗ります。"] }
+},
+{
+  en: ["Hélène can sit in the metro because there are not many people."],
+  fr: { correct: ["Hélène peut s'asseoir dans le métro parce qu'il n'y a pas beaucoup de monde."] },
+  es: { correct: ["Hélène puede sentarse en el metro porque no hay mucha gente."] },
+  tr: { correct: ["Hélène metrodaki boş yerlerde oturabilir çünkü çok kalabalık değil."] },
+  ja: { correct: ["エレーヌは地下鉄で座れます。人があまりいません。"] }
+},
+{
+  en: ["She gets off after 6 stops."],
+  fr: { correct: ["Elle descend dans six stations."] },
+  es: { correct: ["Ella se baja después de seis paradas."] },
+  tr: { correct: ["Altı durak sonra iniyor."] },
+  ja: { correct: ["彼女は6駅で降ります。"] }
+},
+{
+  en: ["In Paris, people often take the bus for short distances."],
+  fr: { correct: ["À Paris, on prend souvent le bus pour faire de courtes distances."] },
+  es: { correct: ["En París, a menudo se toma el autobús para distancias cortas."] },
+  tr: { correct: ["Paris'te kısa mesafeler için genellikle otobüse binerler."] },
+  ja: { correct: ["パリでは短い距離の移動にバスがよく使われます。"] }
+},
+{
+  en: ["The same kind of ticket is used for the bus as for the metro."],
+  fr: { correct: ["On utilise le même genre de ticket pour le bus que pour le métro."] },
+  es: { correct: ["Se usa el mismo tipo de billete para el autobús que para el metro."] },
+  tr: { correct: ["Otobüs için metroda kullanılan aynı tür bilet kullanılır."] },
+  ja: { correct: ["バスでは地下鉄と同じ種類のチケットを使います。"] }
+},
+{
+  en: ["Be careful: if you take the metro then the bus, you need a new ticket or to validate your card again."],
+  fr: { correct: ["Attention : si vous prenez le métro puis le bus, il faut utiliser un autre ticket ou valider une nouvelle fois sa carte."] },
+  es: { correct: ["Atención: si tomas el metro y luego el autobús, necesitas un billete nuevo o validar tu tarjeta otra vez."] },
+  tr: { correct: ["Dikkat: önce metroya sonra otobüse biniyorsanız, yeni bir bilet almalı veya kartınızı tekrar okutmalısınız."] },
+  ja: { correct: ["注意：地下鉄の後にバスに乗る場合は、新しいチケットを買うかカードをもう一度タッチする必要があります。"] }
+},
+{
+  en: ["The bus arrives."],
+  fr: { correct: ["Le bus est arrivé."] },
+  es: { correct: ["El autobús llegó."] },
+  tr: { correct: ["Otobüs geldi."] },
+  ja: { correct: ["バスが到着しました。"] }
+},
+{
+  en: ["Judit gets on the bus."],
+  fr: { correct: ["Judit monte dans le bus."] },
+  es: { correct: ["Judit sube al autobús."] },
+  tr: { correct: ["Judit otobüse biniyor."] },
+  ja: { correct: ["ジュディットはバスに乗ります。"] }
+},
+{
+  en: ["She is sitting in the bus."],
+  fr: { correct: ["Elle est assise dans le bus."] },
+  es: { correct: ["Ella está sentada en el autobús."] },
+  tr: { correct: ["Otobüste oturuyor."] },
+  ja: { correct: ["彼女はバスに座っています。"] }
+},
+{
+  en: ["She gets off after six stops."],
+  fr: { correct: ["Elle descend dans six stations."] },
+  es: { correct: ["Ella se baja después de seis paradas."] },
+  tr: { correct: ["Altı durak sonra iniyor."] },
+  ja: { correct: ["彼女は6駅で降ります。"] }
+},
+{
+  en: ["There is traffic, so it will take a bit of time."],
+  fr: { correct: ["Il y a des embouteillages donc ça va prendre un peu de temps."] },
+  es: { correct: ["Hay tráfico, así que tomará un poco de tiempo."] },
+  tr: { correct: ["Trafik var, bu yüzden biraz zaman alacak."] },
+  ja: { correct: ["渋滞があるので少し時間がかかります。"] }
+},
+{
+  en: ["There are several tram lines around Paris, on the outskirts."],
+  fr: { correct: ["Il y a plusieurs lignes de tramway qui circulent autour de Paris, à la limite de la banlieue."] },
+  es: { correct: ["Hay varias líneas de tranvía que circulan alrededor de París, en las afueras."] },
+  tr: { correct: ["Paris çevresinde, banliyö sınırında birkaç tramvay hattı var."] },
+  ja: { correct: ["パリの周辺、郊外の境界にいくつかのトラム路線があります。"] }
+},
+{
+  en: ["You cannot go to the center of Paris by tram."],
+  fr: { correct: ["On ne peut pas aller au centre de Paris en tramway."] },
+  es: { correct: ["No se puede ir al centro de París en tranvía."] },
+  tr: { correct: ["Tramvayla Paris merkezine gidemezsiniz."] },
+  ja: { correct: ["トラムでパリ中心部には行けません。"] }
+},
+{
+  en: ["To take the tram, you use a ticket or your Navigo card."],
+  fr: { correct: ["Pour prendre le tram, on utilise un ticket ou sa carte Navigo."] },
+  es: { correct: ["Para tomar el tranvía, se usa un billete o la tarjeta Navigo."] },
+  tr: { correct: ["Tramvaya binmek için bilet veya Navigo kartı kullanılır."] },
+  ja: { correct: ["トラムに乗るにはチケットかNavigoカードを使います。"] }
+},
+{
+  en: ["At every tram stop, there are machines to buy tickets or recharge your Navigo card."],
+  fr: { correct: ["À tous les arrêts de tram, il y a des machines pour acheter des tickets ou recharger sa carte Navigo."] },
+  es: { correct: ["En todas las paradas de tranvía hay máquinas para comprar billetes o recargar la tarjeta Navigo."] },
+  tr: { correct: ["Her tramvay durağında bilet almak veya Navigo kartını doldurmak için makineler var."] },
+  ja: { correct: ["すべてのトラム停留所にチケットを買ったりNavigoカードをチャージしたりできる機械があります。"] }
+},
+{
+  en: ["I'm waiting for the tram, it's a bit long."],
+  fr: { correct: ["J'attends le tram, c'est un peu long."] },
+  es: { correct: ["Estoy esperando el tranvía, está un poco largo."] },
+  tr: { correct: ["Tramvayı bekliyorum, biraz uzun sürüyor."] },
+  ja: { correct: ["トラムを待っていますが、少し時間がかかっています。"] }
+},
+{
+  en: ["So I take advantage of it to talk to you about our community."],
+  fr: { correct: ["Alors j'en profite pour vous parler de notre communauté."] },
+  es: { correct: ["Así que aprovecho para hablarles de nuestra comunidad."] },
+  tr: { correct: ["Bu yüzden size topluluğumuzdan bahsetmek istiyorum."] },
+  ja: { correct: ["なので、この機会に私たちのコミュニティについて話します。"] }
+},
+{
+  en: ["Now, all members of the Easy French community have access to a Discord server to chat in French with us and other members."],
+  fr: { correct: ["Maintenant, tous les membres de la communauté Easy French ont accès à un serveur Discord pour discuter en français avec nous et tous les membres de la communauté."] },
+  es: { correct: ["Ahora, todos los miembros de la comunidad Easy French tienen acceso a un servidor de Discord para chatear en francés con nosotros y con otros miembros."] },
+  tr: { correct: ["Şimdi, Easy French topluluğunun tüm üyeleri bizimle ve diğer üyelerle Fransızca sohbet edebilecekleri bir Discord sunucusuna erişebiliyorlar."] },
+  ja: { correct: ["今、Easy Frenchのコミュニティの全メンバーが私たちや他のメンバーとフランス語でチャットできるDiscordサーバーにアクセスできます。"] }
+},
+{
+  en: ["Register before the end of the year on easy-french.org/membership to enjoy our special offer."],
+  fr: { correct: ["Inscrivez-vous avant la fin de l'année sur easy-french.org/membership pour profiter de notre offre spéciale."] },
+  es: { correct: ["Regístrate antes de fin de año en easy-french.org/membership para aprovechar nuestra oferta especial."] },
+  tr: { correct: ["Yıl sonuna kadar easy-french.org/membership sitesine kayıt olun ve özel teklifimizden faydalanın."] },
+  ja: { correct: ["年内にeasy-french.org/membershipで登録して特別オファーを利用しましょう。"] }
+},
+{
+  en: ["A 30-day challenge in January to start the year speaking French."],
+  fr: { correct: ["Un challenge de 30 jours en janvier pour commencer l'année en parlant français."] },
+  es: { correct: ["Un reto de 30 días en enero para comenzar el año hablando francés."] },
+  tr: { correct: ["Ocak ayında Fransızca konuşarak yılı başlatmak için 30 günlük bir meydan okuma."] },
+  ja: { correct: ["フランス語で話しながら一年を始めるための1月の30日チャレンジ。"] }
+},
+{
+  en: ["The tram has finally arrived."],
+  fr: { correct: ["Le tram est enfin arrivé."] },
+  es: { correct: ["El tranvía finalmente llegó."] },
+  tr: { correct: ["Tramvay sonunda geldi."] },
+  ja: { correct: ["トラムがついに到着しました。"] }
+},
+{
+  en: ["Hélène got on but did not sit because she gets off at the next stop."],
+  fr: { correct: ["Hélène est montée mais elle ne s'est pas assise parce qu'elle descend au prochain arrêt."] },
+  es: { correct: ["Hélène subió pero no se sentó porque se baja en la siguiente parada."] },
+  tr: { correct: ["Hélène bindi ama oturmadı çünkü bir sonraki durakta inecek."] },
+  ja: { correct: ["エレーヌは乗りましたが、次の停留所で降りるので座りませんでした。"] }
+},
+{
+  en: ["She holds onto the pole to avoid falling."],
+  fr: { correct: ["Elle se tient à la barre pour ne pas tomber."] },
+  es: { correct: ["Se sostiene de la barra para no caerse."] },
+  tr: { correct: ["Düşmemek için demire tutunuyor."] },
+  ja: { correct: ["転ばないように棒につかまっています。"] }
+},
+{
+  en: ["In many cities, including Paris, you can get around with bikes that you can pick up and drop off at another station."],
+  fr: { correct: ["Dans beaucoup de villes, dont Paris, on peut se déplacer avec des vélos que l'on peut prendre puis laisser à une autre station."] },
+  es: { correct: ["En muchas ciudades, incluyendo París, puedes desplazarte con bicicletas que puedes recoger y dejar en otra estación."] },
+  tr: { correct: ["Paris dahil birçok şehirde, bisiklet alıp başka bir istasyonda bırakabileceğiniz sistemler var."] },
+  ja: { correct: ["パリを含む多くの都市では、自転車を借りて別の場所で返すことができます。"] }
+},
+{
+  en: ["In Paris, these bikes are called Vélibs."],
+  fr: { correct: ["À Paris, ces vélos s'appellent des Vélibs."] },
+  es: { correct: ["En París, estas bicicletas se llaman Vélibs."] },
+  tr: { correct: ["Paris'te bu bisikletlere Vélib denir."] },
+  ja: { correct: ["パリではこれらの自転車をヴェリブと言います。"] }
+},
+{
+  en: ["To use them, you can have a subscription card or pay with your phone or bank card."],
+  fr: { correct: ["Pour les utiliser, on peut avoir une carte d'abonnement ou payer avec son téléphone ou par carte bancaire."] },
+  es: { correct: ["Para usarlas, puedes tener una tarjeta de suscripción o pagar con tu teléfono o tarjeta bancaria."] },
+  tr: { correct: ["Kullanmak için abonelik kartı alabilir veya telefon ya da banka kartıyla ödeme yapabilirsiniz."] },
+  ja: { correct: ["使うには、サブスクリプションカードを持つか、携帯電話やクレジットカードで支払えます。"] }
+},
+{
+  en: ["Since the weather is nice, Judit decides to take a Vélib to go home."],
+  fr: { correct: ["Comme il fait beau, Judit décide de prendre un Vélib pour rentrer chez elle."] },
+  es: { correct: ["Como hace buen tiempo, Judit decide tomar un Vélib para volver a casa."] },
+  tr: { correct: ["Hava güzel olduğu için Judit eve gitmek için Vélib alıyor."] },
+  ja: { correct: ["天気がいいので、ジュディットは家に帰るためにヴェリブを使うことにしました。"] }
+},
+{
+  en: ["She uses the Vélib app to unlock the bike."],
+  fr: { correct: ["Elle utilise l'application Vélib pour déverrouiller le vélo."] },
+  es: { correct: ["Ella usa la aplicación Vélib para desbloquear la bicicleta."] },
+  tr: { correct: ["Bisikleti açmak için Vélib uygulamasını kullanıyor."] },
+  ja: { correct: ["彼女は自転車のロックを解除するためにヴェリブのアプリを使います。"] }
+},
+{
+  en: ["The bike is unlocked."],
+  fr: { correct: ["Le vélo est déverrouillé."] },
+  es: { correct: ["La bicicleta está desbloqueada."] },
+  tr: { correct: ["Bisiklet kilidi açıldı."] },
+  ja: { correct: ["自転車のロックが解除されました。"] }
+},
+{
+  en: ["She gets on the bike and leaves."],
+  fr: { correct: ["Elle monte sur le vélo et elle s'en va."] },
+  es: { correct: ["Ella se sube a la bicicleta y se va."] },
+  tr: { correct: ["Bisiklete biniyor ve yola çıkıyor."] },
+  ja: { correct: ["彼女は自転車に乗って出かけます。"] }
+},
+{
+  en: ["Thank you very much, friends, for watching our episode."],
+  fr: { correct: ["Merci beaucoup les amis d'avoir regardé notre épisode."] },
+  es: { correct: ["Muchas gracias amigos por ver nuestro episodio."] },
+  tr: { correct: ["Bölümümüzü izlediğiniz için çok teşekkürler arkadaşlar."] },
+  ja: { correct: ["私たちのエピソードを見てくれてありがとう、みんな。"] }
+},
+{
+  en: ["In the comments, tell us what public transport means you have where you live."],
+  fr: { correct: ["En commentaire, dites-nous quels sont les moyens de transport public qu'il y a chez vous."] },
+  es: { correct: ["En los comentarios, cuéntanos qué medios de transporte público tienes donde vives."] },
+  tr: { correct: ["Yorumlarda yaşadığınız yerde hangi toplu taşıma araçları olduğunu söyleyin."] },
+  ja: { correct: ["コメントで、あなたの住んでいるところにある公共交通機関を教えてください。"] }
+},
+{
+  en: ["Subscribe to the channel and like this video."],
+  fr: { correct: ["Abonnez-vous à la chaîne et likez cette vidéo."] },
+  es: { correct: ["Suscríbete al canal y dale like a este video."] },
+  tr: { correct: ["Kanala abone olun ve bu videoyu beğenin."] },
+  ja: { correct: ["チャンネル登録とこの動画のいいねをお願いします。"] }
+},
+{
+  en: ["Hello everyone, I hope you’re doing well."],
+  fr: { correct: ["Hello tout le monde, j'espère que vous allez bien.", "Salut tout le monde, j'espère que vous allez bien."] },
+  es: { correct: ["Hola a todos, espero que estén bien.", "Hola gente, espero que estén bien."] },
+  tr: { correct: ["Herkese merhaba, umarım iyisinizdir."] },
+  ja: { correct: ["みなさんこんにちは、お元気ですか。"] }
+},
+{
+  en: ["Today’s video was not planned at all."],
+  fr: { correct: ["Aujourd'hui, vidéo pas du tout prévue.", "Cette vidéo n'était pas du tout prévue aujourd'hui."] },
+  es: { correct: ["El video de hoy no estaba planeado en absoluto."] },
+  tr: { correct: ["Bugünkü video hiç planlanmamıştı."] },
+  ja: { correct: ["今日の動画は全く予定していませんでした。"] }
+},
+{
+  en: ["So unplanned that I have no camera, no tripod, no microphone, nothing."],
+  fr: { correct: ["Tellement pas prévue que je n'ai pas de caméra, pas de trépied, pas de micro, rien."] },
+  es: { correct: ["Tan improvisado que no tengo cámara, trípode, micrófono, nada."] },
+  tr: { correct: ["Öyle plansız ki kameram yok, tripod yok, mikrofon yok, hiçbir şey yok."] },
+  ja: { correct: ["あまりにも予定外で、カメラも三脚もマイクも何もありません。"] }
+},
+{
+  en: ["I'm filming on my phone and without a microphone."],
+  fr: { correct: ["Je filme au téléphone et sans micro."] },
+  es: { correct: ["Estoy grabando con el teléfono y sin micrófono."] },
+  tr: { correct: ["Telefonla ve mikrofonsuz çekiyorum."] },
+  ja: { correct: ["携帯でマイクなしで撮影しています。"] }
+},
+{
+  en: ["I think I've never done this in my life."],
+  fr: { correct: ["Je crois que je n'ai jamais fait ça de ma vie."] },
+  es: { correct: ["Creo que nunca he hecho esto en mi vida."] },
+  tr: { correct: ["Hayatımda hiç böyle bir şey yapmadım sanırım."] },
+  ja: { correct: ["人生でこんなことはしたことがないと思います。"] }
+},
+{
+  en: ["No camera means no feedback."],
+  fr: { correct: ["Pas de caméra signifie pas de retour."] },
+  es: { correct: ["No tener cámara significa no tener retroalimentación."] },
+  tr: { correct: ["Kamera yoksa geri bildirim de yok."] },
+  ja: { correct: ["カメラがないということはフィードバックもないということです。"] }
+},
+{
+  en: ["Because I still want you to have a minimum quality, I put my feedback on my ear."],
+  fr: { correct: ["Parce que je veux quand même que vous ayez un minimum de qualité, j'ai mis mon retour sur mon oreille."] },
+  es: { correct: ["Porque quiero que tengan una calidad mínima, puse mi retroalimentación en mi oído."] },
+  tr: { correct: ["Size yine de minimum kalite sunmak istediğim için geri bildirimi kulağıma taktım."] },
+  ja: { correct: ["でも最低限のクオリティは保ちたいので、イヤホンでモニターしています。"] }
+},
+{
+  en: ["Today we meet for a little haul, as you can see, natural look, no makeup, natural hair."],
+  fr: { correct: ["Aujourd'hui on se retrouve pour un petit haul comme vous le voyez, nature, peinture, pas de maquillage, les cheveux naturels."] },
+  es: { correct: ["Hoy nos encontramos para un pequeño haul, como pueden ver, look natural, sin maquillaje, pelo natural."] },
+  tr: { correct: ["Bugün küçük bir alışveriş videosu var, gördüğünüz gibi doğal, makyajsız, doğal saç."] },
+  ja: { correct: ["今日はちょっとした購入品紹介です。ナチュラルメイクなし、髪も自然のままです。"] }
+},
+{
+  en: ["It was not planned at all that I would make you a video."],
+  fr: { correct: ["Ce n'était pas du tout prévu que je vous fasse une vidéo."] },
+  es: { correct: ["No estaba planeado para nada que les hiciera un video."] },
+  tr: { correct: ["Hiç video yapmayı planlamamıştım."] },
+  ja: { correct: ["動画を作る予定は全くありませんでした。"] }
+},
+{
+  en: ["But no, so I wouldn't have posted it right now."],
+  fr: { correct: ["Mais non, du coup je ne vous l'aurais pas posté là."] },
+  es: { correct: ["Pero no, así que no lo habría publicado ahora."] },
+  tr: { correct: ["Ama yok, bu yüzden şimdi paylaşmazdım."] },
+  ja: { correct: ["でも、いいえ、だから今は投稿しなかったでしょう。"] }
+},
+{
+  en: ["The day you see this video, I have been back for a few hours."],
+  fr: { correct: ["Le jour où vous verrez cette vidéo, je suis rentrée depuis quelques heures."] },
+  es: { correct: ["El día que vean este video, habré vuelto hace unas horas."] },
+  tr: { correct: ["Bu videoyu gördüğünüz gün birkaç saattir döndüm."] },
+  ja: { correct: ["この動画を見る頃には、数時間前に帰ってきています。"] }
+},
+{
+  en: ["I came back normally, put down my bags, and threw myself into editing to release it."],
+  fr: { correct: ["Je suis rentrée normalement, j'ai posé mes valises et je me suis jetée sur le montage pour vous la sortir."] },
+  es: { correct: ["Volví normalmente, dejé mis maletas y me lancé a editar para sacarlo."] },
+  tr: { correct: ["Normal olarak döndüm, çantalarımı bıraktım ve bunu yayınlamak için düzenlemeye başladım."] },
+  ja: { correct: ["普通に帰宅して、荷物を置いて、動画編集に取りかかりました。"] }
+},
+{
+  en: ["But actually, with my boyfriend, we left for Tenerife."],
+  fr: { correct: ["Mais en fait, avec mon copain, on est parti pour Tenerife."] },
+  es: { correct: ["Pero en realidad, con mi novio, nos fuimos a Tenerife."] },
+  tr: { correct: ["Ama aslında, sevgilimle Tenerife'ye gittik."] },
+  ja: { correct: ["でも実は、彼氏とテネリフェに行きました。"] }
+},
+{
+  en: ["And I was missing quite a few little things."],
+  fr: { correct: ["Et il me manquait pas mal de petites choses."] },
+  es: { correct: ["Y me faltaban varias cositas."] },
+  tr: { correct: ["Ve birkaç küçük şey eksikti."] },
+  ja: { correct: ["いくつか小さな物が足りなかったんです。"] }
+},
+{
+  en: ["So we had to go shopping a bit."],
+  fr: { correct: ["Du coup, on a été obligé d'aller faire un peu de shopping."] },
+  es: { correct: ["Así que tuvimos que ir de compras un poco."] },
+  tr: { correct: ["Bu yüzden biraz alışveriş yapmak zorunda kaldık."] },
+  ja: { correct: ["だからちょっと買い物に行かざるを得なかった。"] }
+},
+{
+  en: ["And I wanted to show you a bit of what I found."],
+  fr: { correct: ["Et je voulais vous montrer un peu ce que j'ai trouvé."] },
+  es: { correct: ["Y quería mostrarles un poco lo que encontré."] },
+  tr: { correct: ["Ve size bulduklarımı göstermek istedim."] },
+  ja: { correct: ["そして見つけたものを少し見せたかったんです。"] }
+},
+{
+  en: ["I went there already because I forgot the short sleeve part."],
+  fr: { correct: ["J'y suis allée déjà parce que j'ai oublié la partie manches courtes."] },
+  es: { correct: ["Ya fui porque olvidé la parte de las mangas cortas."] },
+  tr: { correct: ["Zaten gittim çünkü kısa kollu kısmını unuttum."] },
+  ja: { correct: ["短袖部分を忘れたので、もう行きました。"] }
+},
+{
+  en: ["That is, among my tops, I took tank tops, long sleeves, jackets but not short sleeves."],
+  fr: { correct: ["C'est-à-dire que dans mes hauts, j'ai pris les débardeurs, les manches longues, les vestes, mais pas les manches courtes."] },
+  es: { correct: ["Es decir, entre mis tops, tomé camisetas sin mangas, mangas largas, chaquetas pero no mangas cortas."] },
+  tr: { correct: ["Yani üstlerimde, atletler, uzun kollular, ceketler aldım ama kısa kollular yok."] },
+  ja: { correct: ["つまりトップスは、タンクトップ、長袖、ジャケットは持ってきたけど半袖は持ってこなかったということです。"] }
+},
+{
+  en: ["So I already went to Lefties."],
+  fr: { correct: ["Donc je suis déjà passée chez Lefties."] },
+  es: { correct: ["Así que ya fui a Lefties."] },
+  tr: { correct: ["Yani zaten Lefties'e gittim."] },
+  ja: { correct: ["だからもうLeftiesに行きました。"] }
+},
+{
+  en: ["Lefties is, I think, only found in Spain and it's really not very expensive."],
+  fr: { correct: ["Lefties c'est, je crois, qu'on peut trouver qu'en Espagne et c'est vraiment pas très cher."] },
+  es: { correct: ["Lefties, creo, solo se encuentra en España y no es muy caro."] },
+  tr: { correct: ["Lefties, bence sadece İspanya'da var ve gerçekten çok ucuz değil."] },
+  ja: { correct: ["Leftiesはスペインにしかないと思いますが、本当に安くはないです。"] }
+},
+{
+  en: ["Anyway, I took stuff, you will recognise my style."],
+  fr: { correct: ["De toute façon, j'ai pris des trucs, vous allez reconnaître mon style."] },
+  es: { correct: ["De todos modos, compré cosas, reconocerán mi estilo."] },
+  tr: { correct: ["Her neyse, bir şeyler aldım, tarzımı tanırsınız."] },
+  ja: { correct: ["とにかく、いくつか買いました。私のスタイルがわかるでしょう。"] }
+},
+{
+  en: ["I didn't take crazy stuff."],
+  fr: { correct: ["Je n'ai pas pris des trucs de fou."] },
+  es: { correct: ["No tomé cosas locas."] },
+  tr: { correct: ["Çılgınca şeyler almadım."] },
+  ja: { correct: ["すごいものは買いませんでした。"] }
+},
+{
+  en: ["Then I also took some makeup, you will see."],
+  fr: { correct: ["Après, j'ai pris du maquillage aussi, vous allez voir."] },
+  es: { correct: ["Luego también tomé algo de maquillaje, ya verán."] },
+  tr: { correct: ["Sonra makyaj da aldım, göreceksiniz."] },
+  ja: { correct: ["それからメイクも買いました。見てください。"] }
+},
+{
+  en: ["I took a little shirt like that."],
+  fr: { correct: ["J'ai pris une petite chemise comme ça."] },
+  es: { correct: ["Tomé una camisetita así."] },
+  tr: { correct: ["Böyle küçük bir gömlek aldım."] },
+  ja: { correct: ["こんな小さなシャツを買いました。"] }
+},
+{
+  en: ["I don't know if you will see it well but it has a bit of a linen effect."],
+  fr: { correct: ["Je ne sais pas trop si on verra, mais elle a un peu un effet lin."] },
+  es: { correct: ["No sé si lo verán bien, pero tiene un poco de efecto lino."] },
+  tr: { correct: ["İyi görünüp görünmeyeceğini bilmiyorum ama biraz keten etkisi var."] },
+  ja: { correct: ["よく見えるかわかりませんが、リネン風です。"] }
+},
+{
+  en: ["Short sleeves and it was 12.99 €."],
+  fr: { correct: ["Manches courtes et elle était à 12,99 €."] },
+  es: { correct: ["Mangas cortas y costó 12,99 €."] },
+  tr: { correct: ["Kısa kollu ve fiyatı 12,99 € idi."] },
+  ja: { correct: ["半袖で、12.99ユーロでした。"] }
+},
 
 ];
 
