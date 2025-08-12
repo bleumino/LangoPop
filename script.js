@@ -983,12 +983,20 @@ const sentences = [
     ja: { correct: ["準備できました。", "マスカラと透明の眉ジェルだけつけました。"] }
   },
   {
-    en: "I’ll try to buy many things and take you shopping with me while my dad’s away.",
-    fr: { correct: ["Je vais essayer d’acheter plein de choses.", "Je vous emmènerai faire du shopping."] },
-    es: { correct: ["Intentaré comprar muchas cosas.", "Les llevaré de compras conmigo."] },
-    tr: { correct: ["Birçok şey almaya çalışacağım.", "Sizi alışverişe götüreceğim."] },
-    ja: { correct: ["たくさん買い物しようと思います。", "みなさんを買い物に連れて行きます。"] }
-  },
+  en: "I’ll try to buy many things and take you shopping with me while my dad’s away.",
+  fr: { correct: [
+    "Je vais essayer d’acheter plein de choses et je vous emmènerai faire du shopping pendant que mon père est absent."
+  ] },
+  es: { correct: [
+    "Intentaré comprar muchas cosas y llevarles de compras conmigo mientras mi padre esté ausente."
+  ] },
+  tr: { correct: [
+    "Babam yokken birçok şey almaya çalışacağım ve sizi alışverişe götüreceğim."
+  ] },
+  ja: { correct: [
+    "父がいない間にたくさん買い物をして、皆さんを一緒に連れて行こうと思います。"
+  ] }
+},
   {
     en: "I finished applying joints everywhere I could. The plumber started on the drains.",
     fr: { correct: ["J’ai fini de faire les joints partout.", "Le plombier a commencé les évacuations."] },
@@ -2482,6 +2490,206 @@ const sentences = [
   es: { correct: ["Mangas cortas y costó 12,99 €."] },
   tr: { correct: ["Kısa kollu ve fiyatı 12,99 € idi."] },
   ja: { correct: ["半袖で、12.99ユーロでした。"] }
+},
+
+{
+  en: "This is a plant. It has dust. Let's clean the dust with a rag.",
+  fr: { correct: [
+    "C’est une plante.", "Voici une plante.", 
+    "Elle a de la poussière.", "Il y a de la poussière dessus.", 
+    "Nettoyons la poussière.", "On va nettoyer la poussière.", 
+    "Avec un chiffon.", "Avec un trapo."
+  ] },
+  es: { correct: [
+    "Esto es una planta.", "Aquí hay una planta.", 
+    "Tiene polvo.", "Hay polvo en ella.", 
+    "Vamos a limpiar el polvo.", "Limpiemos el polvo.", 
+    "Con un trapo.", "Con un paño."
+  ] },
+  tr: { correct: [
+    "Bu bir bitki.", "Burada bir bitki var.", 
+    "Tozlu.", "Üzerinde toz var.", 
+    "Tozu temizleyelim.", "Tozu silelim.", 
+    "Bir bezle.", "Bir bez kullanarak."
+  ] },
+  ja: { correct: [
+    "これは植物です。", "こちらは植物です。", 
+    "ほこりがついています。", "ほこりがあります。", 
+    "ほこりを掃除しましょう。", "ほこりを拭き取りましょう。", 
+    "布で。", "布を使って。"
+  ] }
+},
+{
+  en: "The plant is very dirty. Oh my god! No! I broke the plant.",
+  fr: { correct: [
+    "La plante est très sale.", "Cette plante est très sale.", 
+    "Oh mon dieu !", "Mon dieu !", 
+    "Non !", "Oh non !", 
+    "J’ai cassé la plante.", "Je viens de casser la plante."
+  ] },
+  es: { correct: [
+    "La planta está muy sucia.", "Esta planta está muy sucia.", 
+    "¡Dios mío!", "¡Oh dios!", 
+    "¡No!", "¡Ay no!", 
+    "He roto la planta.", "He dañado la planta."
+  ] },
+  tr: { correct: [
+    "Bitki çok kirli.", "Bu bitki çok kirli.", 
+    "Aman tanrım!", "Aman Allah’ım!", 
+    "Hayır!", "Olmaz!", 
+    "Bitkiyi kırdım.", "Bitkiyi bozmuşum."
+  ] },
+  ja: { correct: [
+    "植物はとても汚いです。", "この植物はすごく汚れています。", 
+    "ああ、なんてこと！", "おお、やばい！", 
+    "だめ！", "いや！", 
+    "植物を壊してしまった。", "植物を傷つけてしまった。"
+  ] }
+},
+{
+  en: "If you want to clean dust off leaves, you have to be very careful. Otherwise, they break.",
+  fr: { correct: [
+    "Si vous voulez nettoyer la poussière des feuilles, il faut faire très attention.", 
+    "Il faut être très prudent en nettoyant la poussière des feuilles.", 
+    "Sinon, elles se cassent.", "Sinon, les feuilles se cassent."
+  ] },
+  es: { correct: [
+    "Si quieres limpiar el polvo de las hojas, tienes que tener mucho cuidado.", 
+    "Hay que ser muy cuidadoso al limpiar el polvo de las hojas.", 
+    "Si no, se rompen.", "De lo contrario, se rompen."
+  ] },
+  tr: { correct: [
+    "Yapraklardaki tozu temizlemek istiyorsan çok dikkatli olmalısın.", 
+    "Tozu temizlerken çok dikkatli olmak gerekir.", 
+    "Aksi takdirde kırılırlar.", "Yoksa kırılırlar."
+  ] },
+  ja: { correct: [
+    "葉のほこりを掃除したいなら、とても注意しなければなりません。", 
+    "ほこりを取るときは慎重にしてください。", 
+    "そうしないと、葉が壊れます。", "注意しないと葉っぱが折れます。"
+  ] }
+},
+{
+  en: "This plant is clean now. The leaves have no dust. It’s clean.",
+  fr: { correct: [
+    "Cette plante est propre maintenant.", "La plante est propre.", 
+    "Les feuilles n’ont pas de poussière.", "Les feuilles sont sans poussière.", 
+    "Elle est propre."
+  ] },
+  es: { correct: [
+    "Esta planta está limpia ahora.", "La planta está limpia.", 
+    "Las hojas no tienen polvo.", "Las hojas están sin polvo.", 
+    "Está limpia."
+  ] },
+  tr: { correct: [
+    "Bu bitki şimdi temiz.", "Bitki temiz.", 
+    "Yapraklarda toz yok.", "Yapraklarda toz bulunmuyor.", 
+    "Temiz."
+  ] },
+  ja: { correct: [
+    "この植物は今きれいです。", "植物はきれいになりました。", 
+    "葉っぱにはほこりがありません。", "葉にほこりはありません。", 
+    "きれいです。"
+  ] }
+},
+{
+  en: "Plants need water just like people do. To check if they need water, touch the soil. If it’s dry, water the plant.",
+  fr: { correct: [
+    "Les plantes ont besoin d’eau comme les personnes.", 
+    "Pour savoir si elles ont besoin d’eau, il faut toucher la terre.", 
+    "Si elle est sèche, il faut arroser la plante."
+  ] },
+  es: { correct: [
+    "Las plantas necesitan agua igual que las personas.", 
+    "Para saber si necesitan agua, hay que tocar la tierra.", 
+    "Si está seca, riega la planta."
+  ] },
+  tr: { correct: [
+    "Bitkiler de insanlar gibi suya ihtiyaç duyar.", 
+    "Suya ihtiyacı olup olmadığını anlamak için toprağa dokunmalısın.", 
+    "Toprak kuruysa bitkiyi sulamalısın."
+  ] },
+  ja: { correct: [
+    "植物は人間と同じように水が必要です。", 
+    "水が必要かどうか土を触って確認します。", 
+    "乾いていたら植物に水をあげてください。"
+  ] }
+},
+{
+  en: "If you don’t have a watering can, you can use a water bottle to water the plant.",
+  fr: { correct: [
+    "Si vous n’avez pas d’arrosoir, vous pouvez utiliser une bouteille d’eau pour arroser la plante.", 
+    "On peut arroser la plante avec une bouteille d’eau si on n’a pas d’arrosoir."
+  ] },
+  es: { correct: [
+    "Si no tienes regadera, puedes usar una botella de agua para regar la planta.", 
+    "Se puede regar la planta con una botella de agua si no hay regadera."
+  ] },
+  tr: { correct: [
+    "Eğer sulama kabı yoksa, bitkiyi sulamak için su şişesi kullanabilirsin.", 
+    "Sulama kabı yoksa su şişesiyle sulayabilirsin."
+  ] },
+  ja: { correct: [
+    "じょうろがなければ、水のボトルで植物に水をあげられます。", 
+    "じょうろがない場合は、水のペットボトルで代用できます。"
+  ] }
+},
+{
+  en: "After watering, close the bottle. You can give the plant kisses and say nice things.",
+  fr: { correct: [
+    "Après avoir arrosé, fermez la bouteille.", 
+    "Vous pouvez donner des bisous à la plante et lui dire des choses gentilles."
+  ] },
+  es: { correct: [
+    "Después de regar, cierra la botella.", 
+    "Puedes darle besos a la planta y decirle cosas bonitas."
+  ] },
+  tr: { correct: [
+    "Suladıktan sonra şişeyi kapat.", 
+    "Bitkiye öpücükler verebilir ve güzel şeyler söyleyebilirsin."
+  ] },
+  ja: { correct: [
+    "水やりが終わったら、ボトルを閉めてください。", 
+    "植物にキスをしたり、優しい言葉をかけてあげましょう。"
+  ] }
+},
+{
+  en: "The green color suits you wonderfully. You look radiant and beautiful.",
+  fr: { correct: [
+    "Ce vert te va à merveille.", "Cette couleur verte te va très bien.", 
+    "Tu es radieuse.", "Tu es magnifique."
+  ] },
+  es: { correct: [
+    "Ese verde te queda maravillosamente.", "Ese color verde te sienta muy bien.", 
+    "Estás radiante.", "Te ves hermosa."
+  ] },
+  tr: { correct: [
+    "O yeşil sana çok yakışıyor.", "Yeşil renk sana harika gidiyor.", 
+    "Parlıyorsun.", "Çok güzelsin."
+  ] },
+  ja: { correct: [
+    "その緑はとても似合っています。", "緑色がよく似合っています。", 
+    "あなたは輝いています。", "美しいです。"
+  ] }
+},
+{
+  en: "It’s over now. Thank you for helping to clean the plant.",
+  fr: { correct: [
+    "C’est fini maintenant.", "C’est terminé.", 
+    "Merci d’avoir aidé à nettoyer la plante.", "Merci pour ton aide avec la plante."
+  ] },
+  es: { correct: [
+    "Ya terminó.", "Se acabó.", 
+    "Gracias por ayudar a limpiar la planta.", "Gracias por ayudar con la planta."
+  ] },
+  tr: { correct: [
+    "Şimdi bitti.", "Artık tamam.", 
+    "Bitkiyi temizlememe yardım ettiğin için teşekkürler.", "Yardımın için teşekkürler."
+  ] },
+  ja: { correct: [
+    "もう終わりです。", "終わりました。", 
+    "植物の掃除を手伝ってくれてありがとう。", "助けてくれてありがとう。"
+  ] }
 },
 
 ];
