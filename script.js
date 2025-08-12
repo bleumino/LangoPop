@@ -999,10 +999,10 @@ const sentences = [
 },
   {
     en: "I finished applying joints everywhere I could. The plumber started on the drains.",
-    fr: { correct: ["J’ai fini de faire les joints partout.", "Le plombier a commencé les évacuations."] },
-    es: { correct: ["Terminé de aplicar selladores donde pude.", "El plomero comenzó con las tuberías."] },
-    tr: { correct: ["Yapabildiğim her yere derz uyguladım.", "Tesisatçı drenajlara başladı."] },
-    ja: { correct: ["できる限りジョイントを仕上げました。", "配管工が排水工事を始めました。"] }
+    fr: { correct: ["J’ai fini de faire les joints partout. Le plombier a commencé les évacuations."] },
+    es: { correct: ["Terminé de aplicar selladores donde pude. El plomero comenzó con las tuberías."] },
+    tr: { correct: ["Yapabildiğim her yere derz uyguladım. Tesisatçı drenajlara başladı."] },
+    ja: { correct: ["できる限りジョイントを仕上げました。配管工が排水工事を始めました。"] }
   },
   {
     en: "We installed the baseboards before putting in the toilets for easier fitting.",
